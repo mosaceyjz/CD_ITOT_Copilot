@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'POST',
                 headers: {
                     // IMPORTANT: Replace with your actual Bearer token
-                    'Authorization': 'Bearer xxxx',
+                    'Authorization': 'Bearer app-kv9ZEYF5ojdOKbyjBOEwRp6l',
                 },
                 body: formData
             });
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'POST',
                 headers: {
                     // IMPORTANT: Replace with your actual Bearer token
-                    'Authorization': 'Bearer xxxx',
+                    'Authorization': 'Bearer app-kv9ZEYF5ojdOKbyjBOEwRp6l',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(requestBody)
